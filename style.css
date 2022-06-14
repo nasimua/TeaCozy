@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center; 
+    overflow-x: hidden;
+}
+
+header {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+nav {
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #cebaab;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    background-image: url(imgs/mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: inherit;
+}
+
+.mission h2, .mission h4 {
+    color: seashell;
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-tea {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    line-height: 60px;
+}
+
+.pics {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#pics img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+} 
+
+#pics h4 {
+    margin: 10px;
+}
+
+.locations {
+    background-image: url(/imgs/locations.jpg);
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-panels {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-panel {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
+    opacity: 1;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;    
+}
+
+.tagline {
+    margin-left: 20px;
+    height: 40px;
+    text-align: left;
+}
+
